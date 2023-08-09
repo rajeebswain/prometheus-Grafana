@@ -51,3 +51,8 @@ The server name got from the command "kubectl get svc"
 ```
 as e.g. http://127.0.0.1:40477
 ```
+
+## References:
+[Ref1](https://blog.marcnuri.com/prometheus-grafana-setup-minikube)
+[Ref2](https://opensource.com/article/21/6/chaos-grafana-prometheus)
+[Ref3](https://brain2life.hashnode.dev/prometheus-and-grafana-setup-in-minikube)
