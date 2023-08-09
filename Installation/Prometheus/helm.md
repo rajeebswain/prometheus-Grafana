@@ -24,7 +24,7 @@ This is required to access prometheus-server using your browser.
 ### Search for the type node port and get the TCP port
 ![image](https://github.com/rajeebswain/prometheus-Grafana/assets/105234711/c49a61eb-2de8-4678-a7b5-f329d21944e3)
 
-#Access to promethus through CLI
+# Access to promethus through CLI
 ### Get the minikube IP
 ```
 minikube ip
