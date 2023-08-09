@@ -46,3 +46,8 @@ minikube service <Add the promethus server name> --url
 ```
 for e.g., ![image](https://github.com/rajeebswain/prometheus-Grafana/assets/105234711/82004099-a4a3-475e-aec9-d3caae2a98aa)
 The server name got from the command "kubectl get svc"
+
+### Now use the URL in browser which gets from above command to
+```
+as e.g. http://127.0.0.1:40477
+```
