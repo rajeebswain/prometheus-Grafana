@@ -28,20 +28,21 @@ This is required to access prometheus-server using your browser.
 ### Get the minikube IP
 ```
 minikube ip
+```
 ![image](https://github.com/rajeebswain/prometheus-Grafana/assets/105234711/58bbafc3-4286-4f7f-ae26-0e543a8e98cf)
 
-````
 ### Use curl to login
 ```
 curl http://<minikube ip>:tcp port
+```
 e.g. ![image](https://github.com/rajeebswain/prometheus-Grafana/assets/105234711/569c2b5a-35ca-47e5-a3a8-86f1f45c5912)
 
-```
+
 
 ## Access promethus through UI.
 ### Expose the service URL.
 ```
 minikube service <Add the promethus server name> --url
+```
 for e.g., ![image](https://github.com/rajeebswain/prometheus-Grafana/assets/105234711/82004099-a4a3-475e-aec9-d3caae2a98aa)
 The server name got from the command "kubectl get svc"
-```
